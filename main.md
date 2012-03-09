@@ -15,6 +15,7 @@
 - notice that zbar = (x - yi) / (x^2 + y^2) = zbar / (z * zbar) = 1 / z
   - useful to convert to standard form (`a + bi`)
 - solving complex eqn:
+
   ```
   z + iw = 2
   iz + 2w = 3 for z,w ∈ C
