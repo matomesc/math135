@@ -26,3 +26,23 @@
      w = 1 - (2/3)i
      z = 2 - i(1-(2/3)i) = 4/3 - i
   ```
+## Complex Plane
+
+- graphing, |z|, intersections of sets
+
+## Polar Coordinates
+
+- from `(r, θ) -> (x, y)`:
+
+```
+x = rcosθ
+y = rsinθ
+```
+- from `(r, θ) -> (x, y)`:
+
+```
+r = sqrt(x^2 + y^2)
+// solve for θ
+cosθ = x / r
+sinθ = y / r
+```
