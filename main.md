@@ -38,7 +38,7 @@
 x = rcosθ
 y = rsinθ
 ```
-- from `(r, θ) -> (x, y)`:
+- from `(x, y) -> (r, θ)`:
 
 ```
 r = sqrt(x^2 + y^2)
@@ -46,3 +46,9 @@ r = sqrt(x^2 + y^2)
 cosθ = x / r
 sinθ = y / r
 ```
+- not that polar representations are not unique: `(r, θ) = (r, θ + 2πk) // k ∈ Z`
+- we usually choose `-π <= θ <= π` or `0 <= θ <= 2π`
+- the polar form of z: `z = r(cosθ + isinθ)`
+  - where `r = |z|` and θ is the __argument__ of `z`
+  - we abbreviate this as `z = rcisθ` where `cisθ = cosθ + isinθ`
+  - not that if `z = rcisθ` then `zbar = rcis(-θ)`
