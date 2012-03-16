@@ -52,3 +52,17 @@ sinθ = y / r
   - where `r = |z|` and θ is the __argument__ of `z`
   - we abbreviate this as `z = rcisθ` where `cisθ = cosθ + isinθ`
   - not that if `z = rcisθ` then `zbar = rcis(-θ)`
+
+ex. Prove that |z/w| = |z| / |w| for z,w in C, w != 0
+```
+
+```
+
+## Prop 28.1 De Moivre's Theorem (DMT)
+
+If θ in R and n in Z then `(cosθ + isinθ)^n = cos(nθ) + isin(nθ)`
+
+Proof:
+```
+We'll do induction for `n >= 0` and trea `n < 0` separately
+```
